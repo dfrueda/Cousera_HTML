@@ -1,0 +1,93 @@
+/*---ESTILO BASICO---*/
+*{
+            box-sizing: border-box;
+            margin:0 auto;
+}
+
+body{
+    font-family: Helvetica,Arial, sans-serif;
+    margin:1%;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #A52A2A;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+.platos{
+    width: 95%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+    background-color: rgb(228, 236, 160);
+}
+
+.platos h3{
+    width: 150px;
+    margin-top: 0%;
+    margin-right: 0%;
+    position: relative;
+    border:1px solid black;
+    right: 0px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.platos p{
+    width: 95%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#h3-1{
+    background-color: rgb(43, 212, 38);
+}
+#h3-2{
+    background-color: rgb(216, 213, 30);
+}
+#h3-3{
+    background-color: rgb(240, 54, 54);
+}
+
+.row{
+    width: 100%;
+}
+
+/*LARGE*/
+@media (min-width:992px){
+    .contenedor{
+        float: left;
+        width: 33.33%;
+    }
+}
+/*---PANTALLA MEDIANA---*/
+@media (min-width:768px) and (max-width:991px){
+    .contenedor{
+        float: left;
+        width: 50%;
+    }
+    #S3{
+        width: 100%;
+    }
+    #S3 .platos{
+        width: 97.5%;
+    }
+    #S3 p{
+        width: 97.5%;
+    }
+}
+
+/*---PANTALLA PEQUEÑA---*/
+@media (max-width:767px){
+    .platos{
+        width: 90%;
+    }
+}
