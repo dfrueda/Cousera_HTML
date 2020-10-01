@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Habito</title>
+<!--meta-->
+	<meta name="Keywords" content="aplicación de planificacion,proyecto de vida, administracion de tiempo" lang="es">
+	<meta name="description" content="Aplicación de apoyo a orientacion y ejecución de proyectos de vida" lang="es">	
+	<meta name="author" content="Laura Rueda" lang="es">
+<!--favicon-->
+	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!--css-->
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
+	<link href="css/stylemenuh.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	
+</head>
+
+<body>
+<div id="wrapped">
+	<!--menu hamburguesa-->
+		<div>
+        <div id="menu">
+            <span></span>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="tdiarias.html">Tareas diarias</a></li>
+                <li><a href="tdelegar.html">Tareas a delegar</a></li>
+                <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="valorarapp.html">Valorar la app</a></li>
+				<li><a href="iniciosesion.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+	<header id="cabezote">
+	<div id="menusuperior">
+		<ul>
+		<li><a href="progreso.html"><img src="images/iconoprogreso-01-01.svg" alt=""/></a></li>
+		<li><a href="frases.html"><img src="images/iconofrases-01.svg" alt=""/></a></li>
+		
+		</ul>
+		</div>
+	</header>
+	<div id="seccion">
+	<div class="entradaformhabito">
+	
+<h2>Habito</h2>
+	</div>
+	
+	
+  <form class="formhabito">
+	<table width="100vw" cellpadding="8">
+  <tbody>
+    
+   <tr>
+      <td><label for="Configuracióntareadiaria">Nombre del habito</label><br><br>
+		   <input type="text" name="nhabito" id="nhabito"  size="60" maxlength="60"  required><br>
+		  
+     </td>
+    </tr>
+    <tr>
+      <td>
+		  <label for="descripcionhabito">Descripción</label><br><br>
+		  <textarea name="descriocionh" cols="45" rows="5" maxlength="500" class="descriocionh" placeholder="Escriba aqui las condiciones de exito del habito. Entre mas especifico mejor"  required></textarea>
+		</td>
+    </tr>
+  </tbody>
+</table>
+	</form>  
+	  
+		<div class="cajatiempo">
+			<p>Define el número de veces que deberás cumplir con dicha actividad</p>
+			 <select>
+  <option value="1vez">1</option>
+  <option value="2veces">2</option>
+  <option value="3veces">3</option>
+  <option value="4veces">4</option>
+</select>
+			 <select>
+  <option value="minimo">Minimo</option>
+  <option value="maximo">Maximo</option>
+ </select>
+			 <select>
+  <option value="tiempo1">Horas</option>
+  <option value="tiempo2">Sesiones</option>
+  <option value="tiempo3">Veces</option>
+ 
+</select>
+			 <select>
+  <option value="temporalidad1">Por Día</option>
+  <option value="temporalidad2">Por Semana</option>
+  <option value="temporalidad3">Por Mes</option>
+  <option value="temporalidad4">Por Año</option>
+</select>
+			
+</div>
+	 <form class="formhabito">
+	  <div class="cajarecordatorio">
+		 <h4 onClick="activarrecordatorio()"> Recordatorio</h4>
+		  <div id="recordar" onClick="activarrecordatorio()"></div>
+		  
+		  <br>
+		  <div id="recordatoriof">
+		  <i>Selecciona un día</i><br></div>
+	 
+ 
+		  <div class="variosdias">
+			  <div class="dias" onclick="cambiarlunes()">
+		<div id="lunes" class="lunesiconinactive"></div>
+	  </div>
+			  
+			   <div class="dias" onclick="cambiarmartes()">
+		<div id="martes" class="martesiconinactive"></div>
+	  </div>
+			    <div class="dias" onclick="cambiarmiercoles()">
+		<div id="miercoles" class="miercolesiconinactive"></div>
+	  </div>
+			  
+			  <div class="dias" onclick="cambiarjueves()">
+		<div id="jueves" class="juevesiconinactive"></div>
+	  </div>
+			    <div class="dias" onclick="cambiarviernes()">
+		<div id="viernes" class="viernesiconinactive"></div>
+	  </div>
+			  
+			   <div class="dias" onclick="cambiarsabado()">
+		<div id="sabado" class="sabadoiconinactive"></div>
+	  </div>
+			  
+			   <div class="dias" onclick="cambiardomingo()">
+		<div id="domingo" class="domingoiconinactive"></div>
+	  </div>
+			  
+			  
+	       </div>
+		  <br>
+	  <i>Selecciona una hora</i> <br>
+		  
+		  <input type="time" name="usr_time">
+			  
+		  
+		
+		  </div>
+	  
+	  
+	  <table width="100vw" cellpadding="8">
+  <tbody>
+    
+   <tr>
+      <td><label for="elcomoh">¿Cómo lo vas a lograr?<br>
+¿Qué necesitas para lograrlo?</label><br><br>
+		    <textarea name="comoh" cols="45" rows="5" maxlength="500" class="descriocionh" placeholder="Escriba aqui las formas y metodos a traves de las cuales pretende lograrlo"  required></textarea><br>
+		  
+     </td>
+    </tr>
+   
+  </tbody>
+</table>
+		 
+	  </form>
+	 
+	<div class="cajaflecha">
+	  <a href="metahabito.html"><i class="fas fa-arrow-circle-right"></i></a>
+		
+		
+		</div>
+	</div>
+		   <footer>
+			<div id="menuinferior">
+			<ul>
+				<li><a href="perfil.html"><img src="images/iconoperfil-01.svg" alt=""/></a></li>
+				<li><a href="base.html"><img src="images/iconobase-01.svg" alt=""/></a></li>
+				<li><a href="recompensa.html"><img src="images/iconorecompensas-01.svg" alt=""/></a></li>
+				
+				</ul>
+			
+		  </div>
+		
+		</footer>
+		
+		 	
+		
+		
+	
+		
+		
+		
+		
+		
+
+	
+	
+	
+	
+	</div>	
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	<script  src="js/indexmenuh.js"></script>
+</body>
+</html>
