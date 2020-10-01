@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.92;fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#585857;}
+	.st3{fill:#222221;}
+	.st4{fill:#3F3F3F;}
+	.st5{fill:url(#SVGID_2_);}
+	.st6{fill:url(#SVGID_3_);}
+	.st7{opacity:0.7;fill:none;stroke:#222221;stroke-width:2.8984;stroke-miterlimit:10;}
+	.st8{opacity:0.56;fill:#3F71AA;}
+	.st9{clip-path:url(#SVGID_5_);}
+	.st10{fill:#9E5F5F;}
+	.st11{fill:#B57F7F;}
+</style>
+<g>
+	<circle class="st7" cx="100.1" cy="100.1" r="95.9"/>
+	<g>
+		<circle class="st8" cx="99.6" cy="99.8" r="92.7"/>
+		<g>
+			<defs>
+				<circle id="SVGID_4_" cx="100" cy="99.8" r="92.7"/>
+			</defs>
+			<clipPath id="SVGID_1_">
+				<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_1_);">
+				<polygon class="st3" points="-23.1,127.9 36.8,80.6 58.9,100.6 71,92.5 80.8,101.3 99.7,97.8 106.7,106.2 110.5,104.2 
+					118.6,110 128.1,101.3 140,112.5 147.3,111.4 157.1,119.8 182.4,122.3 208.6,133.9 208.6,172.4 -23.1,172.4 				"/>
+				<polygon class="st10" points="28.6,163.8 39.1,155.8 71.7,107.2 78.1,147.3 94.3,140.2 124.9,168.2 85.7,156.6 71.8,164.2 
+					34.3,168.2 				"/>
+				<polygon class="st10" points="40.5,93.6 42.6,89 48.8,91.5 36.8,80.6 28.6,88.7 35.6,88.3 				"/>
+				<polygon class="st10" points="72.5,99.8 73.8,97.8 76.2,97.2 71,92.5 64.2,97 69.6,97.2 				"/>
+				<polygon class="st10" points="114.8,113.1 118.6,110 110.5,104.2 106.7,106.2 				"/>
+				<polygon class="st10" points="141,112.3 154.1,126.5 162,122.5 179.1,133.8 191.7,129.7 208.6,141.2 208.6,133.9 182.4,122.3 
+					157.1,119.8 147.3,111.4 				"/>
+				<polygon class="st11" points="180.9,170.3 155.6,153.6 132.2,155.5 118.6,147.2 108,148 86.6,124.1 80.9,124.1 71.7,107.8 
+					78.1,147.3 94.3,140.2 126.3,168.9 141,162.2 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

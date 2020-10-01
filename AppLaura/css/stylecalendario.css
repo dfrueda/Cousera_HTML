@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body{
+  font-family:'Roboto';
+}
+.calendario{
+  margin: auto;
+  padding: 0px 20px 20px;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+  display:table;
+}
+.calendario .calendario-titulo{
+  text-align:center;
+  margin-left:-20px;
+  margin-right:-20px;
+  padding:1px;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+.clear-fix{
+  clear:both;
+}
+.mes{
+  margin:0px 5px;
+  float:left;
+}
+.mes .mes-title{
+  color: black;
+  font-size:14px;
+  font-weight:bolder;
+  text-transform: uppercase;
+}
+.mes-body .box-dia{
+  display: inline-block;
+}
+.mes-body th,.mes-body td, .mes-body .box-dia{
+  width:25px;
+  font-weight:bold;
+  height:25px;
+  font-size: 11px;
+  border: 3px solid white;
+  background-color: transparent;
+  text-align:center;
+}
+.mes-body th{
+  background-color:transparent;
+  border: 3px solid white;
+  height: 0px;
+  color:#DADADA;
+}
+.mes-body .dia--normal{
+  background-color:#F8F7F7;
+}
+.mes-body .dia--feriado{
+  color:white;
+  background-color:#6D6D6D;
+}
+.mes-body .dia--reunion{
+  color:white;
+  background-color:tomato;
+}
