@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Base</title>
+<!--meta-->
+	<meta name="Keywords" content="aplicación de planificacion,proyecto de vida, administracion de tiempo" lang="es">
+	<meta name="description" content="Aplicación de apoyo a orientacion y ejecución de proyectos de vida" lang="es">	
+	<meta name="author" content="Laura Rueda" lang="es">
+<!--favicon-->
+	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!--css-->
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
+	<link href="css/stylemenuh.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	<div id="wrapped">
+	<!--menu hamburguesa-->
+		<div>
+        <div id="menu">
+            <span></span>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="tdiarias.html">Tareas diarias</a></li>
+                <li><a href="tdelegar.html">Tareas a delegar</a></li>
+                <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="valorarapp.html">Valorar la app</a></li>
+				<li><a href="iniciosesion.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+	<header id="cabezote">
+	<div id="menusuperior">
+		<ul>
+		<li><a href="progreso.html"><img src="images/iconoprogreso-01-01.svg" alt=""/></a></li>
+		<li><a href="frases.html"><img src="images/iconofrases-01.svg" alt=""/></a></li>
+		
+		</ul>
+		</div>
+	</header>
+		<div id="seccion">
+			<div class="titlebarra">Diario</div>
+		<div class="cajabarra">
+			<b>Beber agua</b><br>
+			<i>10 veces/día</i>
+			<div class="porcentaje">0%<br>
+			<i>0veces</i>
+			</div>
+		<div id="barra10">
+			<div class="container">
+			<div id="barraN"></div>
+			</div>
+			<div id="botonbarra" onclick="aumentar10()"></div>
+			</div>
+			
+		</div>
+			
+			<div class="titlebarra">Semanal</div>
+		<div class="cajabarra">
+			<b>Ejercicio</b><br>
+			<i>3 horas/semana</i>
+			<div class="porcentaje">0%<br>
+			<i>0Horas</i>
+			</div>
+		<div id="barra3">
+			<div class="container">
+			<div id="barraS"></div>
+			</div>
+			<div id="botonbarras" onclick="aumentar3()"></div>
+			</div>
+			
+		</div>
+			
+			<div class="titlebarra">Mensual</div>
+		<div class="cajabarra">
+			<b>Libros</b><br>
+			<i>5 libros/mes</i>
+			<div class="porcentaje">0%<br>
+			<i>0sesiones</i>
+			</div>
+		<div id="barra5">
+			<div class="container">
+			<div id="barraM"></div>
+			</div>
+			<div id="botonbarram" onclick="aumentar5()"></div>
+			</div>
+			
+		</div>
+			
+			<div class="titlebarra">Objetivo1</div>
+		<div class="cajabarrao">
+			<b>Reestablecer relaciones familiares</b><br>
+			
+			<div class="porcentaje">0%<br>
+			<i>0Horas</i>
+			</div>
+		<div id="barrao">
+			<div class="container">
+			<div id="barraO"></div>
+			</div>
+			<div id="botonbarrao" onclick="aumentar1()"></div>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		<div id="newgoalm">
+			<a href="masmyo.html"><img src="images/iconanadir.svg" width:100% height="auto" alt=""/></a> </div>
+		
+		
+	  </div>
+		
+	  <footer>
+			<div id="menuinferior">
+			<ul>
+				<li><a href="perfil.html"><img src="images/iconoperfil-01.svg" alt=""/></a></li>
+				<li><a href="base.html"><img src="images/iconobase-01.svg" alt=""/></a></li>
+				<li><a href="recompensa.html"><img src="images/iconorecompensas-01.svg" alt=""/></a></li>
+				
+				</ul>
+			
+		  </div>
+		
+		</footer>
+	</div>
+	 <script  src="js/indexmenuh.js"></script>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	
+</body>
+	
+	
+</html>
