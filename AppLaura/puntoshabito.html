@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Puntos habito</title>
+<!--meta-->
+	<meta name="Keywords" content="aplicación de planificacion,proyecto de vida, administracion de tiempo" lang="es">
+	<meta name="description" content="Aplicación de apoyo a orientacion y ejecución de proyectos de vida" lang="es">	
+	<meta name="author" content="Laura Rueda" lang="es">
+<!--favicon-->
+	<link id="favicon" rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!--css-->
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="css/stylemenuh.css" rel="stylesheet" type="text/css">
+	<!--js-->
+	
+
+	
+	
+</head>
+
+<body>
+<div id="wrapped">
+	<div id="seccion">	
+	<!--menu hamburguesa-->
+		<div>
+        <div id="menu">
+            <span></span>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li><a href="tdiarias.html">Tareas diarias</a></li>
+                <li><a href="tdelegar.html">Tareas a delegar</a></li>
+                <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="valorarapp.html">Valorar la app</a></li>
+				<li><a href="iniciosesion.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+    </div>
+	<header id="cabezote">
+	<div id="menusuperior">
+		<ul>
+		<li><a href="progreso.html"><img src="images/iconoprogreso-01-01.svg" alt=""/></a></li>
+		<li><a href="frases.html"><img src="images/iconofrases-01.svg" alt=""/></a></li>
+		
+		</ul>
+		</div>
+	</header>
+	<div class="entradaformhabito">
+	 <img src="images/entradahabito-05.svg" with="100%" height="auto" alt=""/>
+<h2>Habito</h2>
+	</div>
+	
+  <form class="formrecompensa">
+	<div class="cajapuntos">
+		<b>Puntos</b>
+		<p>Selecciona el nivel de pertinencia que tiene <br>la meta para ti, siendo 5 lo más importante y <br> 1 lo menos importante.
+		</p>
+		<div class="variospuntos">
+		
+		<div class="puntos" onclick="cambiarPunto1()">
+		<div id="punto1" class="punto1IconInactive"></div>
+	  </div>
+		
+		<div class="puntos" onclick="cambiarPunto2()">
+		<div id="punto2" class="punto2IconInactive"></div>
+	  </div>
+		
+		<div class="puntos" onclick="cambiarPunto3()">
+		<div id="punto3" class="punto3IconInactive"></div>
+	  </div>
+		
+		<div class="puntos" onclick="cambiarPunto4()">
+		<div id="punto4" class="punto4IconInactive"></div>
+	  </div>
+		
+		<div class="puntos" onclick="cambiarPunto5()">
+		<div id="punto5" class="punto5IconInactive"></div>
+	  </div>
+		</div>
+		
+		</div>
+
+		<b>Recompensa</b>
+		<p>Selecciona el premio que te daras cada vez que cumplas con dicha actividad.<br> Demuestrate cuanto te quieres.
+		</p>
+	<div class="premiospre">
+		<ul>
+		<li>Tiempo en las redes sociales<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			<li>Contestar correos<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			<li>Mirar celular<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			<li>Ver videos<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			<li>Comer algo que me gusta<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			<li>Salida el fin de semana<input type="checkbox" name="recompensa1" value="activar premio1"></li>
+			
+		</ul>
+		<b>Nueva recompensa</b>
+		  <textarea name="descriocionh" cols="45" rows="5" maxlength="500" class="descriocionh" placeholder="sugiera una recompensa"  required></textarea>
+		
+		<div class="tiemporecompensa">
+		<div class="botonrecompensa">Diaria</div><br>
+	  <div class="botonrecompensa">Semanal</div><br>
+	<div class="botonrecompensa">Mensual</div><br>
+		</div>
+		  </div>
+		</form>
+	
+		
+
+	  
+	  
+	<div class="cajaflecha">
+	  <a href="habitoestablecido.html"> <i class="fas fa-arrow-circle-right"></i></a>
+		
+		
+		</div>
+		
+		 <footer>
+			<div id="menuinferior">
+			<ul>
+				<li><a href="perfil.html"><img src="images/iconoperfil-01.svg" alt=""/></a></li>
+				<li><a href="base.html"><img src="images/iconobase-01.svg" alt=""/></a></li>
+				<li><a href="recompensa.html"><img src="images/iconorecompensas-01.svg" alt=""/></a></li>
+				
+				</ul>
+			
+		  </div>
+		
+		</footer>
+		
+		
+		
+		
+		
+		
+		
+		</div>
+
+	
+
+	
+	
+	</div>	
+	<script type="text/javascript" src="js/main.js"></script>
+		<script  src="js/indexmenuh.js"></script>
+	
+</body>
+</html>
